@@ -1,0 +1,78 @@
+/**** H O J A   S O B R E  M I ****/
+.about__container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.about__box{
+    display: flex;
+    .about__item{
+        width: 50%;
+        .about__img{
+            width: 100%;
+            height: 40rem;
+            padding: 2rem;
+            object-fit:contain;
+            animation-name: foto;
+            animation-duration: 3s;
+            }
+        .about__description{
+            width: 100%;
+            height: 40rem;
+            padding: 3rem 4rem 4rem;
+            line-height: 1.8rem;
+            font-size: 1.1rem;
+            text-align: justify;
+            }
+        }     
+}
+
+@keyframes foto {
+    0%{
+        transform:translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+@media  (max-width: 1200px){
+    .about__description{
+        padding: 3rem;
+        line-height: 1.7rem;
+        font-size: 1rem;
+        }
+}
+@media  (max-width: 992px){
+    .about__description{
+        overflow: auto;
+        }
+}
+@media  (max-width: 768px){
+    .about__img{
+        padding: 1rem;
+        }
+    
+    .about__description{
+        padding: 4rem 0.5rem 1rem;
+        line-height: 1.7rem;
+        }
+}
+@media  (max-width: 576px){
+    .about__box{
+        flex-direction: column;
+        .about__item{
+            width: 100%;
+            .about__description{
+                overflow: none;
+            }
+        }
+    }   
+}
+
+

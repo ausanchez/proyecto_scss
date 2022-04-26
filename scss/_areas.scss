@@ -1,0 +1,19 @@
+@import "colores";
+
+body{
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+    background-color: $bgc1;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    background-color: $bgc1;
+}

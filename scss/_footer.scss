@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer__container{
+    margin: 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .social{
+        display: flex;
+            .social__img{
+                width: 2rem;
+                border-radius: 50%;
+                margin: 1rem;
+                }
+    }
+    .copyright__description{
+        margin: 0.5rem;
+    }
+}

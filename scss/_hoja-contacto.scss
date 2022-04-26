@@ -1,0 +1,46 @@
+@import "colores";
+
+/**** H O J A  C O N T A C T O ****/
+.contacto__container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+}
+
+.form__box{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 4rem auto;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $bgc2;
+    gap: 20px;
+    .form__title{
+        font-family: 'Play', sans-serif;
+    }
+    .form__input{
+        border: none;
+        height: 20px;
+        width: 100%;
+        .texta{
+            min-height: 250px;
+            max-height: 350px;
+            max-width: 100%; 
+        }
+    }
+}
+#boton{
+    font-size: 15px;
+    text-align: center;
+    color: $boton1;
+    font-weight: bolder;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
