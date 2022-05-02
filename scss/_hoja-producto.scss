@@ -14,17 +14,17 @@
     margin: 1.5rem 0;
     padding: 1rem;
     font-family: 'Play', sans-serif;
-    .product__grid{
+    }
+.product__grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10rem , 1fr));
         gap: 0.5rem;
-        .product__img{
+    }
+.product__img{
             width: 10rem;
             height: 10rem;
             margin: auto;
         }
-    }
-}
 
 @media  (max-width: 768px){
     .product__title{
