@@ -1,0 +1,7 @@
+
+@mixin cards ($sizefuente, $ancholinea, $alineado){
+    font-size: $sizefuente;
+    line-height: $ancholinea;
+    text-align: $alineado;
+}
+    

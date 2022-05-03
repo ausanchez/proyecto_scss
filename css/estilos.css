@@ -476,15 +476,43 @@ footer {
   max-width: 100%;
 }
 
-#boton {
+#boton, .boton2 {
   font-size: 15px;
   text-align: center;
   color: #9830dd;
   font-weight: bolder;
 }
-#boton:hover {
+#boton:hover, .boton2:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.boton2 {
+  color: #aa3f1e;
+}
+
+.caja-tituloh1 {
+  font-size: 3rem;
+}
+
+.caja-tituloh2 {
+  font-size: 2.5rem;
+}
+
+.caja-tituloh3 {
+  font-size: 2rem;
+}
+
+.caja-tituloh4 {
+  font-size: 1.5rem;
+}
+
+.caja-tituloh5 {
+  font-size: 1.25rem;
+}
+
+.caja-tituloh6 {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

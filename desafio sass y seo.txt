@@ -1,0 +1,94 @@
+
+*********EXTENDS************
+1- Se agrega en sección CONTACTO un <input type="button" value="Limpiar" class="boton2">
+2- En hoja _colores.scss se define la variable $boton2
+3- En _hoja-contacto.scss se agrega la clase .boton2 con un @extend
+que replica las propiedades del #boton, pero se modifica el color utilizando la variable
+definida en el punto 2.
+
+*********MIXIN************
+1- Se crea la hoja _mixins.scss y se define la estructura mixin con el nombre cards.
+2- Se establecen las 3 propiedades que incluye este mixin.
+3- En _hoja-inicio.scss se realiza un @import "mixins" y luego se modifica la clase
+.card__descrip agregando @include cards para llamar a las propiedades definidas.
+4- se incluyen los valores necesarios para cada atributo en el mixin cards.
+
+**********MAPA************
+En origen.scss se crea estructura $mapa a modo de prueba, ya que NO encuentro en el 
+codigo de mi proyecto un fragmento que permita aplicar esta herramienta.
+
+
+
+SEO
+
+**********************index.html****************************
+
+- Se agregan las etiquetas:
+<meta name="keywords" content="candybar, eventos, souvenirs, mesa dulce, candybar ideas, sweet tables, candybar bodas, cumpleaños">
+<meta name="description" content="Somos Luna Lunera, un empredimiento que tiene todo lo que necesitas para hacer de tu evento, el mejor de todos.">
+
+- Se modifica la etiqueta:
+<title>Inicio</title> pasa a llamarse =>
+<title>Candybar: aquello que hace diferente a tus eventos </title>
+
+*********************productos.html**************************
+
+- Se agregan las etiquetas:
+<meta name="keywords" content="globos, tortas, donas, frascos, candybar, centros de mesa, dulces, caramelos">
+<meta name="description" content="¿Estas organizando un evento, querés que sea especial, pero no sabes por donde comenzar? ¡No busques mas!En esta sección te ofrecemos todo lo que necesitas.">
+
+- Se modifica la etiqueta:
+
+<title>Productos</title> pasa a llamarse =>
+<title>Todos los Productos necesarios para tu fiesta</title>
+
+*********************sobremi.html****************************
+
+- Se agregan las etiquetas:
+
+<meta name="keywords" content="emprendedora, mi historia, manualidades, acerca de mi, mi negocio personal">
+<meta name="description" content="Somos Luna Lunera. Nacimos como un emprendimiento cuyo objetivo es demostrarte que existen muchas ideas que pueden hacer de tus eventos, momentos unicos e inolvidables.">
+
+- Se modifica la etiqueta:
+
+<title>Sobre mi</title> pasa a llamarse =>
+<title>Un poco de nuestra historia</title>
+
+
+*********************ustedes.html*****************************
+
+- Se agregan las etiquetas:
+
+<meta name="keywords" content="fotos, galeria, momentos unicos, fotos cumpleaños, fotos de boda, espacio de fotos, recuerdos">
+<meta name="description" content="Para nosotros, tu satisfacción es nuestro mayor premio. Te compartimos algunas de las fotos que cada uno de nuestros clientes, nuestros amigos, nos compartieron. Momentos únicos retratados.">
+
+- Se modifica la etiqueta:
+
+<title>Ustedes</title> pasa a llamarse =>
+<title>Ustedes. Gracias por elegirnos.</title>
+
+
+*********************contacto.html******************************
+
+- Se agregan las etiquetas:
+
+<meta name="keywords" content="contacto, formulario de contacto, contacto candybar, enviar consulta">
+<meta name="description" content="Contactanos">
+
+- Se modifica la etiqueta:
+
+<title>Contact</title> pasa a llamarse =>
+<title>Contacta con nosotros</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
