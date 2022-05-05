@@ -15,20 +15,24 @@
 .descrip__container{
     width: 100%;
     margin: 1rem;
+}
     .descrip__article{
         display: flex;
         height: 15rem;
-        .descrip__box{
-            width: 30%;
-            background-color: $bgc1;
-            padding: 4rem 1rem;
-            border-radius: 1rem;
-            .descrip__title{
-                font-size: 2.2rem;
-                color: $titulo1;
-                text-shadow: 1px 3px 0.6px $sombra1;    text-align:center;
-            }
-        }
+    }
+
+    .descrip__box{
+        width: 30%;
+        background-color: $bgc1;
+        padding: 4rem 1rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+
+    .descrip__title{
+        font-size: 2.2rem;
+        color: $titulo1;
+        text-shadow: 1px 3px 0.6px $sombra1;text-align:center;
     }
     .descrip__explication{
         width: 70%;
@@ -38,8 +42,9 @@
             line-height: 1.8rem;
             text-align: justify;
             }
-        }        
-}
+        }
+    
+
 
 .cards{
     display: flex;
@@ -61,114 +66,6 @@
             }
             .card__descrip{
                 @include cards (1.3rem,1.6rem,center)
-            }
-        }
-    }
-}
-@media  (max-width: 1200px){
-    .descrip__title{
-        font-size: 1.8rem;
-    }
-   .descrip__explication{
-        padding: 1rem 2rem;
-        .descrip__argument{
-            font-size: 1.1rem;
-        }
-    }
-    .card__descrip{
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-        text-align: start;
-    }        
-}
-@media  (max-width: 992px){
-    .descrip__container{
-        margin: 0.5rem;
-    }
-    .descrip__title{
-        font-size: 1.6rem;
-    }
-    .descrip__box{
-        width: 20%;
-        padding: 2.2rem 1rem;
-    }
-    .descrip__explication{
-        width: 80%;
-        .descrip__argument{
-            font-size: 1.1rem;
-            line-height: 1.4rem;
-        }
-    }
-    .card__descrip{
-        font-size: 1.1rem;
-        line-height: 1.2rem;
-        text-align: start;
-    }    
-}
-@media  (max-width: 768px){
-    .descrip__title{
-        font-size: 1.4rem;
-    }
-
-    .descrip__explication{
-        padding: 1rem 2rem;
-        .descrip__argument{
-            font-size: 1rem;
-            line-height: 1.1rem;
-        }
-    }
-
-    .cards{
-        flex-direction: column;
-        .card__box{
-            width: 100%;
-            .card__img{
-                filter: grayscale(0%);
-                width: 100%;
-                &:hover{
-                    transform: none;
-                }
-            }
-            .card__descrip{
-                font-size: 1.2rem;
-            }
-        }
-    }
-}
-
-@media  (max-width: 576px){
-    .descrip__article{
-        flex-direction: column;
-        margin-bottom: 7rem;
-        .descrip__box{
-            width: 100%;
-            .descrip__title{
-                font-size: 1.3rem;
-            }
-        }
-    }
-    .descrip__explication{
-        width: 100%;
-        padding: 1rem;
-        .descrip__argument{
-            font-size: 1.1rem;
-            line-height: 1.5rem;
-        }
-    }
-    .cards{
-        width: 100%;
-        .card__box{
-            margin-top: 3rem;
-            width: 100%;
-            .card__img{
-                width: 100%;
-                &:hover{
-                    transform: none;
-                }
-            }
-            .card__descrip{
-                font-size: 1.1rem;
-                line-height: 1.4rem;
             }
         }
     }

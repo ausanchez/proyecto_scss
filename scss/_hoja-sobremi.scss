@@ -41,38 +41,5 @@
         transform:translateX(0);
     }
 }
-@media  (max-width: 1200px){
-    .about__description{
-        padding: 3rem;
-        line-height: 1.7rem;
-        font-size: 1rem;
-        }
-}
-@media  (max-width: 992px){
-    .about__description{
-        overflow: auto;
-        }
-}
-@media  (max-width: 768px){
-    .about__img{
-        padding: 1rem;
-        }
-    
-    .about__description{
-        padding: 4rem 0.5rem 1rem;
-        line-height: 1.7rem;
-        }
-}
-@media  (max-width: 576px){
-    .about__box{
-        flex-direction: column;
-        .about__item{
-            width: 100%;
-            .about__description{
-                overflow: none;
-            }
-        }
-    }   
-}
 
 

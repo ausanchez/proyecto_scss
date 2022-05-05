@@ -1,0 +1,205 @@
+@media  (max-width: 1200px){
+
+    /***** H O J A  I N D E X ******/
+
+    .descrip__title{
+        font-size: 1.8rem;
+    }
+   .descrip__explication{
+        padding: 1rem 2rem;
+        .descrip__argument{
+            font-size: 1.1rem;
+        }
+    }
+    .card__descrip{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: start;
+    }
+
+    /***** H O J A  S O B R E  M I ******/
+    
+    .about__description{
+        padding: 3rem;
+        line-height: 1.7rem;
+        font-size: 1rem;
+        }
+}
+
+@media  (max-width: 992px){
+    .descrip__container{
+        margin: 0.5rem;
+    }
+    .descrip__title{
+        font-size: 1.6rem;
+    }
+    .descrip__box{
+        width: 20%;
+        padding: 2.2rem 1rem;
+    }
+    .descrip__explication{
+        width: 80%;
+        .descrip__argument{
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+        }
+    }
+    .card__descrip{
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        text-align: start;
+    }
+
+    /***** H O J A  S O B R E  M I ******/
+    .about__description{
+        overflow: auto;
+        }
+
+    /**** H O J A   U S T E D E S ****/
+    .feedb__title{
+        font-size: 2.5rem;
+    }
+    .grid__item:nth-child(2){
+        grid-column-start: span 2;
+    }
+    .grid__item:nth-child(11){
+        grid-column-start: span 3;
+    }
+}
+
+@media  (max-width: 768px){
+
+    /***** H O J A  I N D E X ********/
+
+    .descrip__title{
+        font-size: 1.4rem;
+    }
+
+    .descrip__explication{
+        padding: 1rem 2rem;
+        .descrip__argument{
+            font-size: 1rem;
+            line-height: 1.1rem;
+        }
+    }
+
+    .cards{
+        flex-direction: column;
+        .card__box{
+            width: 100%;
+            .card__img{
+                filter: grayscale(0%);
+                width: 100%;
+                &:hover{
+                    transform: none;
+                }
+            }
+            .card__descrip{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    /***** H O J A   P R O D U C T O *****/
+    .product__title{
+        font-size: 2.2rem;
+    }
+
+    /***** H O J A  S O B R E  M I ******/
+    .about__img{
+        padding: 1rem;
+        }
+    
+    .about__description{
+        padding: 4rem 0.5rem 1rem;
+        line-height: 1.7rem;
+        }
+    
+    /**** H O J A   U S T E D E S ****/
+
+    .feedb__title{
+        font-size: 2.5rem;
+    }
+    .grid__item:nth-child(2){
+        grid-column-start: span 3;
+    }
+    .grid__item:nth-child(6){
+        grid-row-start: span 2;
+    }
+    .grid__item:nth-child(11){
+        grid-column-start: span 2;
+    }
+}
+
+@media  (max-width: 576px){
+
+    /***** H O J A  I N D E X ******/
+    .descrip__article{
+        flex-direction: column;
+        margin-bottom: 7rem;
+        .descrip__box{
+            width: 100%;
+            margin-left: 0;
+            .descrip__title{
+                font-size: 1.3rem;
+            }
+        }
+    }
+    .descrip__explication{
+        width: 100%;
+        padding: 1rem;
+        .descrip__argument{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+        }
+    }
+    .cards{
+        width: 100%;
+        .card__box{
+            margin-top: 3rem;
+            width: 100%;
+            .card__img{
+                width: 100%;
+                &:hover{
+                    transform: none;
+                }
+            }
+            .card__descrip{
+                font-size: 1.1rem;
+                line-height: 1.4rem;
+            }
+        }
+    }
+
+     /***** H O J A  S O B R E  M I ******/
+     .about__box{
+        flex-direction: column;
+        .about__item{
+            width: 100%;
+            .about__description{
+                overflow: none;
+            }
+        }
+    }
+
+    /**** H O J A   U S T E D E S ****/
+    .feedb__title{
+        font-size: 1.8rem;
+    }
+    .grid__item:nth-child(2){
+        grid-row-start: span 1;
+    }
+    .grid__item:nth-child(6){
+        grid-row-start: span 2;
+    }
+    .grid__item:nth-child(8){
+        grid-row-start: span 1;
+    }
+    .grid__item:nth-child(9){
+        grid-row-start: span 2;
+        grid-column-start: span 2;
+    }
+    .grid__item:nth-child(11){
+        grid-column-start: span 1;
+    }
+}
